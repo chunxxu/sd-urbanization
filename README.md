@@ -19,4 +19,4 @@ GO TO THE [STORYMAP](https://chunxxu.github.io/sd-urbanization/)
 
 ## Credits
 
-The story map uses the JavaScript library <a href= "https://github.com/jakobzhao/storymap" target="_blank">storymap.js</a>, version 2.4, realized by Bo Zhao | College of Earth, Ocean, Atmospheric Science | Oregon State University. Other libraries used are <a href= "https://github.com/ewoken/Leaflet.MovingMarker" target="_blank">MovingMarker.js</a>, <a href="https://unpkg.com/leaflet-ant-path">Leaflet Ant Path</a>, <a href:="https://jquery.com/">JQuery</a> and <a href="https://github.com/chriswhong/leaflet-globeminimap">Globeminimap</a>.
+The story map uses the JavaScript library <a href= "https://github.com/jakobzhao/storymap" target="_blank">storymap.js</a>, version 2.4, realized by Bo Zhao | College of Earth, Ocean, Atmospheric Science | Oregon State University and <a href:="https://jquery.com/">JQuery</a>.
