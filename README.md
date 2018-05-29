@@ -2,19 +2,18 @@
 
 This storymap illustrates urban expansion in Shandong Peninsula Urban Agglomeration from 1978 to 2015.Shandong Peninsula Urban Agglomeration is located in the northeastern part of China, including eight cities on the Shandong Peninsula (i.e. Jinan, Qingdao, Weifang, Zibo, Yantai, Weihai and Dongying). It belongs to the Bohai Economic Rim, and serves as the most dynamic region in that area. 
 
-![](img/info.jpg)
+![](img/Info.jpg)
 
 The introductory scene shows the theme of this storymap.
 
-![](img/ss1.JPG)
+![](img/SD_sum.jpg)
 
-Then it shows the new provinces annexed to the Empire, the expeditions in Africa and Arabia and finally the diplomatic successes of Augustus in the eastern kingdoms.
+The next scene gives the summary and location of Shandong Peninsula Urban Agglomeration.
+![](img/SD_scene2.jpg)
 
-![](img/ss2.JPG)
+The next following eight scenes show the introducation and urban expansion for each city in 1978-2015.
 
-
-
-GO TO THE [STORYMAP](https://gsvevo.github.io/resgestae/)
+GO TO THE [STORYMAP](https://chunxxu.github.io/sd-urbanization/)
 
 
 
