@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cities in Oregon</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--meta data for sharing links on Facebook-->
+	<meta property="og:title" content="The major cities in Oregon"/>
+	<meta property="og:url" content="http://geoviz.ceoas.oregonstate.edu/storymap/examples/2.4/video.html"/>
+	<meta property="og:description" content="This is an example of a storymap."/>
+	<meta property="og:image" content="img/social.png"/>
+
+	<!--add required stylesheets-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<!--leaflet css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+
+	<!--add favicon for the web page-->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="css/storymap.2.4.css">
+	<!--add required libraries-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
+	<!--jquery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+	<!--boostrap-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<!--leaflet.ajax for asynchronously adding geojson data-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+	<!--story map plugin-->
+	<script src="js/storymap.2.4.js"></script>
+</head>
+<body>
+
+<div id="storymap" class="container-fluid">
+	<div class="row">
+		<div class="col-sm-6 col-md-4 storymap-story">
+			<section data-scene="overview" data-background="assets/City.mp4">
+				<div class="fullscreen text-center">
+
+					<h1 class="display-4 d-flex justify-content-center">Urban Expansion in Shandong Peninsula Urban
+                        Agglomeration, China</h1>
+
+
+					<small class="d-flex justify-content-center" style="color: rgba(255,255,255,0.95)">This story map
+						illustrates urban expansion in Shandong Peninsula Urban
+                        Agglomeration from 1978 to 2015.
+					</small>
+				</div>
+			</section>
+
+            <section data-scene="Shandong">
+                <h2>Shandong Peninsula Urban Agglomeration</h2>
+                <p>Shandong Peninsula Urban Agglomeration is located in the northeastern part of China, including eight
+                    cities on the Shandong Peninsula (i.e. Jinan, Qingdao, Weifang, Zibo, Yantai, Weihai and Dongying).
+                    It belongs to the Bohai Economic Rim, and serves as the most dynamic region in that area. Shandong
+                    Peninsula includes 13 cities in total, accounting for 11.7% of the nation with 112,700km2 land
+                    area and eight cities in Urban Agglomeration cover 74,000km2. With good climate condition and flat
+                    terrain, this is the most populated area in China, and maybe one of the regions with most population
+                    density in the world. Qingdao and Jinan are duel cores in this area. Based on the goal of building
+                    Shandong Peninsula Oceanic Economic Zone, this area is expected to become a nation demonstration
+                    zone for oceanic economy, oceanic industrial cluster and oceanic innovation reform pilot area.</p>
+                <img src="img/SD.jpg" class="img-responsive img-thumbnail" alt="responsive image"
+                     alt-text="Location of Shandong">
+            </section>
+
+			<section data-scene="Jinan">
+                <img class=subject-image-2 src="img/jinan.jpg" />
+				<h2>Jinan</h2>
+				<p>Jinan, formerly romanized as Tsinan, is the capital of Shandong province in Eastern China. The
+                    area of present-day Jinan has played an important role in the history of the region from the
+                    earliest beginnings of civilization and has evolved into a major national administrative, economic,
+                    and transportation hub. The city has held sub-provincial administrative status since 1994.
+                    Jinan is often called the "Spring City" for its famous 72 artesian springs. Its population was
+                    6.8 million at the 2010 census.[wiki]</p>
+                <img src="img/EX_jn.jpg" class="img-responsive img-thumbnail" alt="responsive image"
+                     alt-text="Urban expansion of Jinan">
+                <p>From 1978 to 2015, the developed area in Jinan expands from 110km<sup>2</sup> to 1500km<sup>2</sup>.</p>
+			</section>
+
+            <section data-scene="Qingdao">
+                <img class=subject-image-2 src="img/qingdao0.jpg" />
+                <h2>Qingdao</h2>
+                <p>Qingdao(Tsingdao) is the largest city in Shandong province. Qingdao is a major seaport, naval base,
+                    and industrial centre. The world's longest sea bridge, the Jiaozhou Bay Bridge, links the main
+                    urban area of Qingdao with Huangdao district, straddling the Jiaozhou Bay sea areas. It is also
+                    the site of the Tsingtao Brewery. Administered at the sub-provincial level, Qingdao has jurisdiction
+                    over six districts and four county-level cities. As of 2014 Qingdao had a population of 9,046,200
+                    with an urban population of 6,188,100.[wiki]</p>
+                <img src="img/EX_qd.jpg" class="img-responsive img-thumbnail" alt="responsive image"
+                     alt-text="Urban expansion of Qingdao">
+                <p>From 1978 to 2015, the developed area in Qingdao expands from 66km<sup>2</sup> to 1816km<sup>2</sup>.</p>
+            </section>
+
+            <section data-scene="Weifang">
+                <img class=subject-image-2 src="img/weifang.jpeg" />
+                <h2>Weifang</h2>
+                <p>Weifang is a prefecture-level city in central Shandong province. Established in August 1995, Weifang
+                    Binhai Economic & Technological Development Area (BEDA) is a national economic and technological
+                    development area approved by the State Council. Its population was 9,086,241 at the 2010 census,
+                    of whom 2,659,938 lived in the built-up (or metro) area made up of 4 urban districts (Kuiwen, Weicheng,
+                    Hanting and Fangzi) and Changle County largely being urbanized.[wiki]</p>
+                <img src="img/EX_qd.jpg" class="img-responsive img-thumbnail" alt="responsive image"
+                     alt-text="Urban expansion of Weifang">
+                <p>From 1978 to 2015, the developed area in Weifang expands from 314km<sup>2</sup> to 2060km<sup>2</sup>.</p>
+            </section>
+
+            <section data-scene="Yantai">
+                <img class=subject-image-2 src="img/yantai.jpg" />
+                <h2>Yantai</h2>
+                <p>Yantai is a prefecture-level city on the Bohai Strait in Shandong Province. It is the largest fishing
+                    seaport in Shandong.Yantai is currently the second largest industrial city in Shandong, next to Qingdao.
+                    However, the region's largest industry is agriculture. It is famous throughout China for a particular
+                    variety of apple and Laiyang pear, and is home to the country's largest and oldest grape winery.
+                    Its population was 6,968,202 during the 2010 census, of whom 2,227,733 lived in the built-up area
+                    made up of the 4 urban districts of Zhifu, Muping, Fushan, and Laishan.[wiki]</p>
+                <img src="img/EX_yt.jpg" class="img-responsive img-thumbnail" alt="responsive image"
+                     alt-text="Urban expansion of Yantai">
+                <p>From 1978 to 2015, the developed area in Yantai expands from 26km<sup>2</sup> to 1535km<sup>2</sup>.</p>
+            </section>
+
+            <section data-scene="Weihai">
+                <img class=subject-image-2 src="img/weihai.jpg" />
+                <h2>Weihai</h2>
+                <p>Weihai is a commercial port and major fishing center with some light industries. Due to its close
+                    proximity to South Korea, Weihai also has a large Korean business community and receives many Korean
+                    tourists. Weihai is also a key production area for peanuts and fruit.Weihai's population was 2,804,800
+                    at the 2010 census. Amongst them, 591,982 live in the built up area (Huancui district). Rongcheng,
+                    a county-level city within Weihai, has a built up area with 1,006,795 inhabitants.[wiki]</p>
+                <img src="img/EX_wh.jpg" class="img-responsive img-thumbnail" alt="responsive image"
+                     alt-text="Urban expansion of Weihai">
+                <p>From 1978 to 2015, the developed area in Weihai expands from 11km<sup>2</sup> to 677km<sup>2</sup>.</p>
+            </section>
+
+            <section data-scene="Dongying">
+                <img class=subject-image-2 src="img/dongying.jpg" />
+                <h2>Dongying</h2>
+                <p> Dongying is a prefecture-level city administering 5 county-level divisions, including 3 districts and
+                    2 counties. It is home to the Shengli Oilfield which after the Daqing oilfield, and is the second largest
+                    oilfield in China. Dongying is one of the world's leading producers of rubber tires. It has more tire
+                    factories than any other city in the world. At the 2010 census, 2,035,338 people resided within its
+                    administrative area of 7,923.26 km<sup>2</sup> and 998,968 in the built-up area made up of Dongying
+                    district and Kenli County largely being urbanized.[wiki]</p>
+                <img src="img/EX_dy.jpg" class="img-responsive img-thumbnail" alt="responsive image"
+                     alt-text="Urban expansion of Dongying">
+                <p>From 1978 to 2015, the developed area in Dongying expands from 44km<sup>2</sup> to 1147km<sup>2</sup>.</p>
+            </section>
+
+            <section data-scene="Zibo">
+            <img class=subject-image-2 src="img/zibo.jpg" />
+            <h2>Zibo</h2>
+            <p> Zibo is a prefecture-level city in central Shandong province.It is an important transportation hub.
+                Zibo governs five districts (Zhangdian, Zichuan, Boshan, Zhoucun and the Linzi) and each of these
+                Chinese districts has a distinct downtown area of its own. The T-shaped city has a total area of
+                5,938 km<sup>2</sup>, including the counties of Huantai, Gaoqing, and Yiyuan. Zibo's total population
+                is 4.53 million according to the 2010 census, of which 3,633,239 inhabitants live in the metropolitan
+                area comprising the 5 urban districts, including Huantai county (currently still under construction)
+                which will serve to expand the metro-area to Zouping County situated in the municipality of Binzhou. [wiki]</p>
+            <img src="img/EX_zb.jpg" class="img-responsive img-thumbnail" alt="responsive image"
+                 alt-text="Urban expansion of Zibo">
+            <p>From 1978 to 2015, the developed area in Zibo expands from 51km<sup>2</sup> to 1092km<sup>2</sup>.</p>
+            </section>
+
+            <section data-scene="Rizhao">
+                <img class=subject-image-2 src="img/rizhao.jpg" />
+                <h2>Rizhao</h2>
+                <p> Rizhao is a prefecture-level city in southeastern Shandong province. It is situated on the coastline
+                    along the Yellow Sea, and features a major seaport. The name of the city literally means "sunshine".
+                    The city is known for its sustainability, and it mandates solar-water heaters in all new buildings.
+                    Rizhao city was recognized by the United Nations as one of the most habitable cities in the world in
+                    2009.The city population stands at 2,801,100 as of the 2010 census. Out of those, a little over
+                    865,000 people live in the urban area of Donggang district.[wiki]</p>
+                <img src="img/EX_rz.jpg" class="img-responsive img-thumbnail" alt="responsive image"
+                     alt-text="Urban expansion of Rizhao">
+                <p>From 1978 to 2015, the developed area in Rizhao expands from 50km<sup>2</sup> to 608km<sup>2</sup>.</p>
+            </section>
+
+
+			<section data-scene="end" data-background="img/qingdao.jpg">
+				<div class="fullscreen text-center">
+					<h1 class="display-4 d-flex justify-content-center">Thanks for watching!</h1>
+					<small class="d-flex justify-content-center" style="color: rgba(255,255,255,0.95)">The story map uses the JavaScript library
+                        storymap.js, version 2.4, realized by Bo Zhao | College of Earth, Ocean, Atmospheric Science |
+                        Oregon State University
+					</small>
+				</div>
+			</section>
+
+		</div>
+		<!--map div-->
+		<div class="col-sm-6 col-md-8 storymap-map"></div>
+	</div>
+
+	<dl>
+		<dt>
+			<!--facebook icon-->
+			<a class="fab fa-facebook-square btn"
+			   href="https://facebook.com/sharer.php?u=http://geoviz.ceoas.oregonstate.edu/storymap/examples/2.3/video.html"
+			   target="_blank"></a>
+		</dt>
+		<dt>
+			<!--facebook icon-->
+			<a class="fab fa-github btn" href="https://github.com/chunxxu/SD-Urbaniztion" style="top:40px"
+			   target="_blank"></a>
+		</dt>
+		<dt>
+			<!--info icon-->
+			<i class="fas fa-info-circle btn" style="top:60px" data-toggle="modal" data-target="#info-modal"></i>
+		</dt>
+	</dl>
+
+    <!--the info page-->
+    <div class="modal fade" id="info-modal" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">About</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This storymap illustrates urban expansion in Shandong Peninsula Urban Agglomeration from 1978 to 2015.</p>
+                    <p>The story map uses the JavaScript library <a href= "https://github.com/jakobzhao/storymap" target="_blank">storymap.js</a>, version 2.4, realized by Bo Zhao | College of Earth, Ocean, Atmospheric Science | Oregon State University,and <a href="https://jquery.com/">JQuery</a></p>
+                    <p>Images in the text are from <a href src="https://images.google.com/">Google Image</a></p>
+                    <p>The favicon image is from <a href="https://www.shareicon.net/tag/urban?p=4">Shareicon</a></p>
+                    <p>This story map uses geospatial data from Landsat Satellite images </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- main javascript -->
+<script type="text/javascript">
+
+
+	// Create Legend Contents in html format
+	var county_legend = '<i style="background: orange; opacity: 0.5"></i><p><b>Cities</b></p>';
+	var forest_legend = '<i style="background: green; opacity: 0.5"></i><p><b>Forest</b></p>';
+
+
+
+	var layers = {
+		ESRI: {layer: L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}')},
+
+        cities: {
+			layer: L.geoJson.ajax('assets/shandong.geojson', {
+				color: 'orange',
+				weight: 2,
+				opacity: 0.3
+			}), legend: county_legend
+		},
+        jinan: {
+            layer: L.geoJson.ajax('assets/jinan.geojson', {
+                color: 'yellow',
+                weight: 2,
+                opacity: 0.7,
+                fillOpacity:0
+            })
+        },
+        qingdao: {
+            layer: L.geoJson.ajax('assets/qingdao.geojson', {
+                color: 'yellow',
+                weight: 2,
+                opacity: 0.7,
+                fillOpacity:0
+            })
+        },
+        weifang: {
+            layer: L.geoJson.ajax('assets/weifang.geojson', {
+                color: 'yellow',
+                weight: 2,
+                opacity: 0.7,
+                fillOpacity:0
+            })
+        },
+        yantai: {
+            layer: L.geoJson.ajax('assets/yantai.geojson', {
+                color: 'yellow',
+                weight: 2,
+                opacity: 0.7,
+                fillOpacity:0
+            })
+        },
+        weihai: {
+            layer: L.geoJson.ajax('assets/weihai.geojson', {
+                color: 'yellow',
+                weight: 2,
+                opacity: 0.7,
+                fillOpacity:0
+            })
+        },
+        dongying: {
+            layer: L.geoJson.ajax('assets/dongying.geojson', {
+                color: 'yellow',
+                weight: 2,
+                opacity: 0.7,
+                fillOpacity:0
+            })
+        },
+        rizhao: {
+            layer: L.geoJson.ajax('assets/rizhao.geojson', {
+                color: 'yellow',
+                weight: 2,
+                opacity: 0.7,
+                fillOpacity:0
+            })
+        },
+        zibo: {
+            layer: L.geoJson.ajax('assets/zibo.geojson', {
+                color: 'yellow',
+                weight: 2,
+                opacity: 0.7,
+                fillOpacity:0
+            })
+        },
+		GEE: {
+			layer: L.tileLayer('http://earthengine.google.org/static/hansen_2013/tree_alpha/{z}/{x}/{y}.png'),
+			legend: forest_legend
+		},
+
+        cartodb_light: {layer: L.tileLayer('http://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png')}
+    };
+
+	var scenes = {
+        Shandong: {lat: 37, lng: 118, zoom: 7, name: 'Shandong', layers: [layers.GEE, layers.cities]},
+		Jinan: {lat: 36.8, lng: 117, zoom: 9, name: 'Jinan', layers: [layers.ESRI,layers.jinan]},
+        Qingdao: {lat: 36.4, lng: 120, zoom: 9, name: 'Qingdao', layers: [layers.ESRI,layers.qingdao]},
+        Weifang: {lat: 36.6, lng: 118.7, zoom: 9, name: 'Weifang', layers: [layers.ESRI,layers.weifang]},
+        Yantai: {lat: 37.2, lng: 120.3, zoom: 9, name: 'Yantai', layers: [layers.ESRI,layers.yantai]},
+        Weihai: {lat: 37.2, lng: 121.5, zoom: 9, name: 'Weihai', layers: [layers.ESRI,layers.weihai]},
+        Dongying: {lat: 37.6, lng: 118.5, zoom: 9, name: 'Dongying', layers: [layers.ESRI,layers.dongying]},
+        Zibo: {lat: 36.6, lng: 117.5, zoom: 9, name: 'Zibo', layers: [layers.ESRI,layers.zibo]},
+        Rizhao: {lat: 35.5, lng: 119, zoom: 9, name: 'Rizhao', layers: [layers.ESRI,layers.rizhao]},
+		end: {lat: 37, lng: 118, zoom: 7, name: 'The End'}
+	};
+
+	$('#storymap').storymap({
+		scenes: scenes,
+		baselayer: layers.cartodb_light,
+		legend: true, // if you do not want a legend feature, you can simply not define the createLegend function.
+		credits: "",
+		loader: true,
+		scalebar: false,
+		flyo: true,
+		navwidget: true,
+
+		createMap: function () {
+			// create a map in the "map" div, set the view to a given place and zoom
+			var map = L.map($(".storymap-map")[0], {
+				zoomControl: false, scrollWheelZoom: false, fadeAnimation: true,
+				zoomAnimation: true
+			}).setView([37, 118], 7);
+
+			return map;
+		}
+	});
+</script>
+</body>
+</html>s
